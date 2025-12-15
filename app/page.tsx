@@ -1,4 +1,21 @@
-import Image from "next/image";
+"use client";
+
+import SimpleButton from "@/components/demobutton";
+
+export default function Home() {
+  return (
+    <main style={{ padding: "2rem" }}>
+      <h1>Welcome to my site!</h1>
+      <p>This is my homepage.</p>
+
+      <SimpleButton>
+        Click me
+      </SimpleButton>
+    </main>
+  );
+}
+
+/*import Image from "next/image";
 
 export default function Home() {
     return (
@@ -81,3 +98,4 @@ export default function Home() {
         </div>
     );
 }
+*/

@@ -1,9 +1,16 @@
 
 let experiences = [
-  { id: '1', title: 'Frontend Dev', company: 'CSE Society' },
-  { id: '2', title: 'Backend Dev', company: 'CSE Society' }
+  { 
+    id: '1', 
+    title: 'Developer', 
+    company: 'CSES', 
+    location: 'La Jolla, CA', 
+    startDate: 'Dec 2025',
+    endDate: 'Present',
+    description: 'Built responsive UI components using Next.js and Tailwind.'
+  },
+  
 ];
-
 export async function getExperiences() {
   return experiences;
 }
